@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*  NAVBAR  */
+
+.navbar {
+
+    height: 60px;
+    background-color: #FEFEFE;
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 500px;
+}
+
+.nav-search {
+
+    height: 40px;
+    width: 600px;
+    background-color: #F3F1F2;
+    border-radius: 50px;
+    border: 0.5px solid #F3F1F2;
+    margin-top: 10px;
+
+}
+
+::placeholder {
+    padding-left: 20px;
+}
+
+.nav-profile {
+    padding-left: 270px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.nav-profile-name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding-left: 15px;
+    color: #A3A3A3;
+}
+
+.sidenav {
+    box-sizing: border-box;
+    font-family: arial;
+    height: 100vh;
+    width: 60px;
+    position: absolute;
+    background-color: #323232;
+    overflow: hidden;
+    transform: 1s;
+}
+
+.sidenav:hover {
+    width: 225px;
+}
+
+.sidenav ul {
+    position: relative;
+    height: 100vh;
+}
+
+.sidenav ul li {
+    list-style: none;
+}
+
+.sidenav ul li:hover {
+    background: #EB2E64;
+}
+
+.sidenav ul li a {
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.sidenav ul li a .icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    color: #A7A7A7;
+
+}
+
+.sidenav ul li a .text {
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: rgba(167, 167, 167, 1);
+    letter-spacing: 0.05em;
+}
+
+.sidenavcopy {
+    margin-bottom: 450px;
+}
+
+.sidenavcopymsg {
+    padding-left: 20px;
+    color: #858585;
+    text-size-adjust: 50%;
+    text-align-last: center;
+}
+
+.sidenav .sidenavcopymsg:hover {
+    color: #323232;
+}
+
+/* HERO SECTION */
+
+.herosection {
+    display: flex;
+    object-fit: contain;
+    transition: 0.9s;
+}
+
+.img1:hover {
+
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+.img1 {
+    display: flex;
+    object-fit: contain;
+    transition: 0.9s;
+}
+
+
+
+/* MIDDLE LINE */
+
+.mid-section {
+    display: flex;
+    background-color: #FEFEFE;
+    align-items: center;
+
+}
+
+.mid-section1 {
+    margin-left: 100px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 24px;
+    color: #858585;
+}
+
+.mid-section2 {
+    margin-left: 900px;
+    text-decoration: underline;
+    color: #EA2D63;
+
+}
+
+.mid-section3 {
+    height: 65px;
+    width: 80px;
+    background-color: #EA2D63;
+    margin-left: 90px;
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+/* DESCRIPTION SECTION */
+
+#discrip {
+    height: 350px;
+    background-color: #F8F8F8;
+    margin-left: 62px;
+}
+
+#discrip button {
+    margin-top: 180px;
+    margin-left: 700px;
+    background-color: #ffe1a8;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#discrip button:hover {
+    background-color: #F63163;
+    cursor: pointer;
+}
